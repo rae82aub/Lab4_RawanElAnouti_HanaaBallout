@@ -48,14 +48,14 @@ The School Management System supports:
 ## How to Run the Project
 
 Make sure Python is installed on your computer.
-## Run the PYQT Interface
+### Run the PYQT Interface
 
 Open a terminal inside the project folder and run:
 
 `python part3_pyqt.py`
 
 
-## Run the Tkinter Interface
+### Run the Tkinter Interface
 
 Open a terminal inside the project folder and run:
 
