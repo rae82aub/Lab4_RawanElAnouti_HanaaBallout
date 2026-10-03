@@ -1,14 +1,18 @@
-# Lab4_RawanElAnouti_HanaaBallout
+# Lab 4 - Git and GitHub Collaboration
 
+## Project Overview
 
-The purpose of this project is to learn how to use Git and GitHub.
+This project was developed for Lab 4 for EECE435L.
 
-The project contains two user interfaces for the same School Management System:
+The objective of this project is to practice collaborative development using Git and GitHub by developing two graphical user interfaces for the same School Management System.
 
-- Tkinter interface
-- PyQt interface
+The project includes:
 
-Each interface is developed on a separate branch and later merged into the main branch.
+- A Tkinter interface
+- A PyQt interface
+- Shared Python classes used by the application
+
+Both interfaces were developed on separate branches and later merged into the `main` branch.
 
 ## Team Members
 
@@ -17,39 +21,37 @@ Each interface is developed on a separate branch and later merged into the main 
 
 ## Branches
 
-- `main` - Final integrated version
+- `main` - Final integrated project
 - `feature-tkinter` - Tkinter implementation
 - `feature-pyqt` - PyQt implementation
 
 ## Project Features
 
-The School Management System allows users to manage:
+The School Management System supports:
 
-- Students
-- Instructors
-- Courses
-- Student course registrations
-- Instructor course assignments
+- Adding students
+- Adding instructors
+- Adding courses
+- Editing records
+- Deleting records
+- Searching for records
+- Registering students in courses
+- Assigning instructors to courses
 
-## Development Workflow
+## Project Files
 
-1. Create the shared GitHub repository.
-2. Add both students as collaborators.
-3. Develop the Tkinter interface on the `feature-tkinter` branch.
-4. Develop the PyQt interface on the `feature-pyqt` branch.
-5. Commit and push changes separately.
-6. Create pull requests.
-7. Review and merge both branches into `main`.
-8. Test the final integrated project.
+- `tkinter_app.py` - Tkinter graphical user interface
+- `part3_pyqt.py` - PyQt graphical user interface
+- `part1_oop.py` - Shared object-oriented classes used by the application
+- `README.md` - Project documentation
 
-## Running the Project
+## How to Run the Project
 
-Instructions for running the Tkinter and PyQt applications will be added after both implementations are completed.
+Make sure Python is installed on your computer.
 
-## Contributors
+### Run the Tkinter Interface
 
-### Rawan El Anouti
-- Tkinter interface
+Open a terminal inside the project folder and run:
 
-### Hanaa Ballout
-- PyQt interface
+```bash
+python tkinter_app.py
